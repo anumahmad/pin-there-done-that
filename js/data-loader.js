@@ -1,8 +1,17 @@
+function preloadImages(pins) {
+  return Promise.all(pins.map(pin => new Promise(resolve => {
+    const img = new Image();
+    img.crossOrigin = 'anonymous';
+    img.onload = resolve;
+    img.onerror = resolve;
+    img.src = pin.image_path;
+  })));
+}
+
 async function loadGraph() {
   const pins = await fetch('data/pins.json').then(r => r.json());
 
-  // Resolve image paths to absolute URLs so Cytoscape's canvas renderer can load them
-  const base = new URL('.', document.baseURI).href;
+  await preloadImages(pins);
 
   const nodes = [];
   const edges = [];
@@ -17,7 +26,7 @@ async function loadGraph() {
         ...pin,
         primaryColor,
         label: pin.name,
-        image_path: new URL(pin.image_path, base).href,
+        image_path: pin.image_path,
       },
       classes: 'pin-node',
     });

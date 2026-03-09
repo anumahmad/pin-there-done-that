@@ -71,6 +71,7 @@ function buildCyStyle() {
         'background-color': 'transparent',
         'background-opacity': 0,
         'background-image': 'data(image_path)',
+        'background-image-crossorigin': 'anonymous',
         'background-fit': 'contain',
         'background-clip': 'none',
         'border-width': 0,
