@@ -2,7 +2,7 @@
   {
     "id": "pin_001",
     "name": "Bronx Zoo Gorilla",
-    "image_path": "images/pins/pin_015.png",
+    "image_path": "images/pins/pin_015.PNG",
     "categories": [
       "NYC"
     ],
@@ -16,7 +16,7 @@
   {
     "id": "pin_002",
     "name": "Metrocard",
-    "image_path": "images/pins/pin_010.png",
+    "image_path": "images/pins/pin_010.PNG",
     "categories": [
       "NYC"
     ],
@@ -30,7 +30,7 @@
   {
     "id": "pin_003",
     "name": "New York Botanical Gardens",
-    "image_path": "images/pins/pin_013.png",
+    "image_path": "images/pins/pin_013.PNG",
     "categories": [
       "NYC"
     ],
@@ -44,7 +44,7 @@
   {
     "id": "pin_004",
     "name": "NYC",
-    "image_path": "images/pins/pin_016.png",
+    "image_path": "images/pins/pin_016.PNG",
     "categories": [
       "NYC"
     ],
@@ -58,7 +58,7 @@
   {
     "id": "pin_005",
     "name": "New York Flag",
-    "image_path": "images/pins/pin_012.png",
+    "image_path": "images/pins/pin_012.PNG",
     "categories": [
       "NYC"
     ],
@@ -72,7 +72,7 @@
   {
     "id": "pin_006",
     "name": "Brookyln",
-    "image_path": "images/pins/pin_017.png",
+    "image_path": "images/pins/pin_017.PNG",
     "categories": [
       "NYC"
     ],
@@ -86,7 +86,7 @@
   {
     "id": "pin_007",
     "name": "Bryant Park Taxi",
-    "image_path": "images/pins/pin_024.png",
+    "image_path": "images/pins/pin_024.PNG",
     "categories": [
       "NYC"
     ],
@@ -100,7 +100,7 @@
   {
     "id": "pin_008",
     "name": "New York Loves Pidgeons",
-    "image_path": "images/pins/pin_019.png",
+    "image_path": "images/pins/pin_019.PNG",
     "categories": [
       "NYC"
     ],
@@ -114,7 +114,7 @@
   {
     "id": "pin_009",
     "name": "Lotus Flower",
-    "image_path": "images/pins/pin_020.png",
+    "image_path": "images/pins/pin_020.PNG",
     "categories": [
       "NYC"
     ],
@@ -128,7 +128,7 @@
   {
     "id": "pin_010",
     "name": "Starry Night",
-    "image_path": "images/pins/pin_021.png",
+    "image_path": "images/pins/pin_021.PNG",
     "categories": [
       "NYC"
     ],
@@ -142,7 +142,7 @@
   {
     "id": "pin_011",
     "name": "Tile Art",
-    "image_path": "images/pins/pin_022.png",
+    "image_path": "images/pins/pin_022.PNG",
     "categories": [
       "NYC"
     ],
@@ -156,7 +156,7 @@
   {
     "id": "pin_012",
     "name": "Met Museum",
-    "image_path": "images/pins/pin_023.png",
+    "image_path": "images/pins/pin_023.PNG",
     "categories": [
       "NYC"
     ],
@@ -170,7 +170,7 @@
   {
     "id": "pin_013",
     "name": "NYC Coffee Cup",
-    "image_path": "images/pins/pin_014.png",
+    "image_path": "images/pins/pin_014.PNG",
     "categories": [
       "NYC"
     ],
@@ -184,7 +184,7 @@
   {
     "id": "pin_014",
     "name": "Chip City",
-    "image_path": "images/pins/pin_038.png",
+    "image_path": "images/pins/pin_038.PNG",
     "categories": [
       "NYC"
     ],
@@ -198,7 +198,7 @@
   {
     "id": "pin_015",
     "name": "TImeliner Escape Room",
-    "image_path": "images/pins/pin_018.png",
+    "image_path": "images/pins/pin_018.PNG",
     "categories": [
       "NYC"
     ],
@@ -212,7 +212,7 @@
   {
     "id": "pin_016",
     "name": "Gong Cha 2023",
-    "image_path": "images/pins/pin_001.png",
+    "image_path": "images/pins/pin_001.PNG",
     "categories": [
       "Bubble Tea",
       "NYC"
@@ -227,7 +227,7 @@
   {
     "id": "pin_017",
     "name": "Gong Cha 2024",
-    "image_path": "images/pins/pin_026.png",
+    "image_path": "images/pins/pin_026.PNG",
     "categories": [
       "Bubble Tea",
       "NYC"
@@ -242,7 +242,7 @@
   {
     "id": "pin_018",
     "name": "Gong Cha 2025",
-    "image_path": "images/pins/pin_025.png",
+    "image_path": "images/pins/pin_025.PNG",
     "categories": [
       "Bubble Tea",
       "NYC"
@@ -257,7 +257,7 @@
   {
     "id": "pin_019",
     "name": "Certified Boba Lover",
-    "image_path": "images/pins/pin_027.png",
+    "image_path": "images/pins/pin_027.PNG",
     "categories": [
       "Bubble Tea"
     ],
@@ -271,7 +271,7 @@
   {
     "id": "pin_020",
     "name": "Fox Drinking Bubble Tea",
-    "image_path": "images/pins/pin_028.png",
+    "image_path": "images/pins/pin_028.PNG",
     "categories": [
       "Bubble Tea"
     ],
@@ -285,7 +285,7 @@
   {
     "id": "pin_021",
     "name": "Pooh Drinking Bubble Tea",
-    "image_path": "images/pins/pin_043.png",
+    "image_path": "images/pins/pin_043.PNG",
     "categories": [
       "Bubble Tea",
       "Travel"
@@ -300,7 +300,7 @@
   {
     "id": "pin_022",
     "name": "Stitch Drinking Bubble Tea",
-    "image_path": "images/pins/pin_042.png",
+    "image_path": "images/pins/pin_042.PNG",
     "categories": [
       "Bubble Tea",
       "Travel"
@@ -315,7 +315,7 @@
   {
     "id": "pin_023",
     "name": "Kirby Drinking Bubble Tea",
-    "image_path": "images/pins/pin_008.png",
+    "image_path": "images/pins/pin_008.PNG",
     "categories": [
       "Bubble Tea",
       "Anime"
@@ -330,7 +330,7 @@
   {
     "id": "pin_024",
     "name": "Nezuko Drinking Bubble Tea",
-    "image_path": "images/pins/pin_044.png",
+    "image_path": "images/pins/pin_044.PNG",
     "categories": [
       "Bubble Tea",
       "Anime"
@@ -345,7 +345,7 @@
   {
     "id": "pin_025",
     "name": "HackCon 2020",
-    "image_path": "images/pins/pin_029.png",
+    "image_path": "images/pins/pin_029.PNG",
     "categories": [
       "Technology"
     ],
@@ -359,7 +359,7 @@
   {
     "id": "pin_026",
     "name": "Duck with Sunglasses",
-    "image_path": "images/pins/pin_031.png",
+    "image_path": "images/pins/pin_031.PNG",
     "categories": [
       "Technology"
     ],
@@ -373,7 +373,7 @@
   {
     "id": "pin_027",
     "name": "Duck on Bench",
-    "image_path": "images/pins/pin_030.png",
+    "image_path": "images/pins/pin_030.PNG",
     "categories": [
       "Technology"
     ],
@@ -387,7 +387,7 @@
   {
     "id": "pin_028",
     "name": "MLH Hackathon Winner",
-    "image_path": "images/pins/pin_011.png",
+    "image_path": "images/pins/pin_011.PNG",
     "categories": [
       "Technology"
     ],
@@ -401,7 +401,7 @@
   {
     "id": "pin_029",
     "name": "NVIDIA",
-    "image_path": "images/pins/pin_032.png",
+    "image_path": "images/pins/pin_032.PNG",
     "categories": [
       "Technology"
     ],
@@ -415,7 +415,7 @@
   {
     "id": "pin_030",
     "name": "Figma",
-    "image_path": "images/pins/pin_033.png",
+    "image_path": "images/pins/pin_033.PNG",
     "categories": [
       "Technology"
     ],
@@ -429,7 +429,7 @@
   {
     "id": "pin_031",
     "name": "AWS Unicorn",
-    "image_path": "images/pins/pin_034.png",
+    "image_path": "images/pins/pin_034.PNG",
     "categories": [
       "Technology"
     ],
@@ -443,7 +443,7 @@
   {
     "id": "pin_032",
     "name": "MongoDB Love Your Developers",
-    "image_path": "images/pins/pin_035.png",
+    "image_path": "images/pins/pin_035.PNG",
     "categories": [
       "Technology"
     ],
@@ -457,7 +457,7 @@
   {
     "id": "pin_033",
     "name": "My Bad",
-    "image_path": "images/pins/pin_039.png",
+    "image_path": "images/pins/pin_039.PNG",
     "categories": [
       "Technology"
     ],
@@ -471,7 +471,7 @@
   {
     "id": "pin_034",
     "name": "Flawless",
-    "image_path": "images/pins/pin_037.png",
+    "image_path": "images/pins/pin_037.PNG",
     "categories": [
       "Technology"
     ],
@@ -485,7 +485,7 @@
   {
     "id": "pin_035",
     "name": "Grace Hopper",
-    "image_path": "images/pins/pin_041.png",
+    "image_path": "images/pins/pin_041.PNG",
     "categories": [
       "Technology"
     ],
@@ -499,7 +499,7 @@
   {
     "id": "pin_036",
     "name": "Divhacks 2023",
-    "image_path": "images/pins/pin_036.png",
+    "image_path": "images/pins/pin_036.PNG",
     "categories": [
       "Technology"
     ],
@@ -513,7 +513,7 @@
   {
     "id": "pin_037",
     "name": "Matilda",
-    "image_path": "images/pins/pin_040.png",
+    "image_path": "images/pins/pin_040.PNG",
     "categories": [
       "Books"
     ],
@@ -527,7 +527,7 @@
   {
     "id": "pin_038",
     "name": "Snoopy",
-    "image_path": "images/pins/pin_006.png",
+    "image_path": "images/pins/pin_006.PNG",
     "categories": [
       "Miscellaneous"
     ],
@@ -541,7 +541,7 @@
   {
     "id": "pin_039",
     "name": "Girl at Computer Going Crazy",
-    "image_path": "images/pins/pin_002.png",
+    "image_path": "images/pins/pin_002.PNG",
     "categories": [
       "Miscellaneous"
     ],
@@ -555,7 +555,7 @@
   {
     "id": "pin_040",
     "name": "Let Gaza Live",
-    "image_path": "images/pins/pin_005.png",
+    "image_path": "images/pins/pin_005.PNG",
     "categories": [
       "Palestine"
     ],
@@ -569,7 +569,7 @@
   {
     "id": "pin_041",
     "name": "Hidden Leaf Headband",
-    "image_path": "images/pins/pin_003.png",
+    "image_path": "images/pins/pin_003.PNG",
     "categories": [
       "Anime"
     ],
@@ -583,7 +583,7 @@
   {
     "id": "pin_042",
     "name": "Millie",
-    "image_path": "images/pins/pin_004.png",
+    "image_path": "images/pins/pin_004.PNG",
     "categories": [
       "NYC"
     ],
@@ -597,7 +597,7 @@
   {
     "id": "pin_043",
     "name": "Hello Kitty Strawhats",
-    "image_path": "images/pins/pin_007.png",
+    "image_path": "images/pins/pin_007.PNG",
     "categories": [
       "Anime"
     ],
@@ -611,7 +611,7 @@
   {
     "id": "pin_044",
     "name": "Kid Link",
-    "image_path": "images/pins/pin_009.png",
+    "image_path": "images/pins/pin_009.PNG",
     "categories": [
       "Nintendo"
     ],
