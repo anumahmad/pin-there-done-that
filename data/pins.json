@@ -1,0 +1,625 @@
+[
+  {
+    "id": "pin_001",
+    "name": "Bronx Zoo Gorilla",
+    "image_path": "images/pins/pin_015.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": "Bronx Zoo Trip 2025",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_002",
+    "name": "Metrocard",
+    "image_path": "images/pins/pin_010.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": true,
+    "texture": "standard",
+    "notes": "from when canal st market was closing :("
+  },
+  {
+    "id": "pin_003",
+    "name": "New York Botanical Gardens",
+    "image_path": "images/pins/pin_013.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "Break Through Tech final celebration <3"
+  },
+  {
+    "id": "pin_004",
+    "name": "NYC",
+    "image_path": "images/pins/pin_016.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "classic but i have no memory of buying it"
+  },
+  {
+    "id": "pin_005",
+    "name": "New York Flag",
+    "image_path": "images/pins/pin_012.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_006",
+    "name": "Brookyln",
+    "image_path": "images/pins/pin_017.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "bought this after an excellent day in brooklyn"
+  },
+  {
+    "id": "pin_007",
+    "name": "Bryant Park Taxi",
+    "image_path": "images/pins/pin_024.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2026,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "anais and i date around nyc"
+  },
+  {
+    "id": "pin_008",
+    "name": "New York Loves Pidgeons",
+    "image_path": "images/pins/pin_019.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_009",
+    "name": "Lotus Flower",
+    "image_path": "images/pins/pin_020.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": "Met",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_010",
+    "name": "Starry Night",
+    "image_path": "images/pins/pin_021.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": "Met",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_011",
+    "name": "Tile Art",
+    "image_path": "images/pins/pin_022.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": "Met",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_012",
+    "name": "Met Museum",
+    "image_path": "images/pins/pin_023.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": "Met",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_013",
+    "name": "NYC Coffee Cup",
+    "image_path": "images/pins/pin_014.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "bubble",
+    "notes": "classic chai cup"
+  },
+  {
+    "id": "pin_014",
+    "name": "Chip City",
+    "image_path": "images/pins/pin_038.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2026,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "chip city has halal marshmellow fluff! the more you know :)"
+  },
+  {
+    "id": "pin_015",
+    "name": "TImeliner Escape Room",
+    "image_path": "images/pins/pin_018.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "sga retreat <3"
+  },
+  {
+    "id": "pin_016",
+    "name": "Gong Cha 2023",
+    "image_path": "images/pins/pin_001.png",
+    "categories": [
+      "Bubble Tea",
+      "NYC"
+    ],
+    "year": 2023,
+    "acquisition_type": "gifted",
+    "trip": "National Boba Day",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "gift from gianna"
+  },
+  {
+    "id": "pin_017",
+    "name": "Gong Cha 2024",
+    "image_path": "images/pins/pin_026.png",
+    "categories": [
+      "Bubble Tea",
+      "NYC"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": "National Boba Day",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "post encampment trauma bond"
+  },
+  {
+    "id": "pin_018",
+    "name": "Gong Cha 2025",
+    "image_path": "images/pins/pin_025.png",
+    "categories": [
+      "Bubble Tea",
+      "NYC"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": "National Boba Day",
+    "is_favorite": true,
+    "texture": "standard",
+    "notes": "ellie and i had the best time coming here pre graduation"
+  },
+  {
+    "id": "pin_019",
+    "name": "Certified Boba Lover",
+    "image_path": "images/pins/pin_027.png",
+    "categories": [
+      "Bubble Tea"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_020",
+    "name": "Fox Drinking Bubble Tea",
+    "image_path": "images/pins/pin_028.png",
+    "categories": [
+      "Bubble Tea"
+    ],
+    "year": 2025,
+    "acquisition_type": "gifted",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "gift from gianna <3"
+  },
+  {
+    "id": "pin_021",
+    "name": "Pooh Drinking Bubble Tea",
+    "image_path": "images/pins/pin_043.png",
+    "categories": [
+      "Bubble Tea",
+      "Travel"
+    ],
+    "year": 2023,
+    "acquisition_type": "bought",
+    "trip": "Hawaii",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_022",
+    "name": "Stitch Drinking Bubble Tea",
+    "image_path": "images/pins/pin_042.png",
+    "categories": [
+      "Bubble Tea",
+      "Travel"
+    ],
+    "year": 2023,
+    "acquisition_type": "bought",
+    "trip": "Hawaii",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_023",
+    "name": "Kirby Drinking Bubble Tea",
+    "image_path": "images/pins/pin_008.png",
+    "categories": [
+      "Bubble Tea",
+      "Anime"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": true,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_024",
+    "name": "Nezuko Drinking Bubble Tea",
+    "image_path": "images/pins/pin_044.png",
+    "categories": [
+      "Bubble Tea",
+      "Anime"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": true,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_025",
+    "name": "HackCon 2020",
+    "image_path": "images/pins/pin_029.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2020,
+    "acquisition_type": "free",
+    "trip": "HackCon 2020",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "never got to go but got the merch <3"
+  },
+  {
+    "id": "pin_026",
+    "name": "Duck with Sunglasses",
+    "image_path": "images/pins/pin_031.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2020,
+    "acquisition_type": "free",
+    "trip": "HackCon 2021",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_027",
+    "name": "Duck on Bench",
+    "image_path": "images/pins/pin_030.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2020,
+    "acquisition_type": "free",
+    "trip": "HackCon 2020",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_028",
+    "name": "MLH Hackathon Winner",
+    "image_path": "images/pins/pin_011.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2021,
+    "acquisition_type": "free",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_029",
+    "name": "NVIDIA",
+    "image_path": "images/pins/pin_032.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2024,
+    "acquisition_type": "free",
+    "trip": "Grace Hopper 2024",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_030",
+    "name": "Figma",
+    "image_path": "images/pins/pin_033.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2024,
+    "acquisition_type": "free",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "thank you gianna!!"
+  },
+  {
+    "id": "pin_031",
+    "name": "AWS Unicorn",
+    "image_path": "images/pins/pin_034.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2023,
+    "acquisition_type": "free",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_032",
+    "name": "MongoDB Love Your Developers",
+    "image_path": "images/pins/pin_035.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2024,
+    "acquisition_type": "free",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "bubble",
+    "notes": ""
+  },
+  {
+    "id": "pin_033",
+    "name": "My Bad",
+    "image_path": "images/pins/pin_039.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2024,
+    "acquisition_type": "free",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_034",
+    "name": "Flawless",
+    "image_path": "images/pins/pin_037.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2024,
+    "acquisition_type": "free",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_035",
+    "name": "Grace Hopper",
+    "image_path": "images/pins/pin_041.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2024,
+    "acquisition_type": "free",
+    "trip": "Grace Hopper 2024",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_036",
+    "name": "Divhacks 2023",
+    "image_path": "images/pins/pin_036.png",
+    "categories": [
+      "Technology"
+    ],
+    "year": 2023,
+    "acquisition_type": "free",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_037",
+    "name": "Matilda",
+    "image_path": "images/pins/pin_040.png",
+    "categories": [
+      "Books"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_038",
+    "name": "Snoopy",
+    "image_path": "images/pins/pin_006.png",
+    "categories": [
+      "Miscellaneous"
+    ],
+    "year": 2023,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": true,
+    "texture": "standard",
+    "notes": "i have no memory of buying this but i am glad i own it"
+  },
+  {
+    "id": "pin_039",
+    "name": "Girl at Computer Going Crazy",
+    "image_path": "images/pins/pin_002.png",
+    "categories": [
+      "Miscellaneous"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "i bought this at kinokuniya by bryant part... my og safe place in nyc"
+  },
+  {
+    "id": "pin_040",
+    "name": "Let Gaza Live",
+    "image_path": "images/pins/pin_005.png",
+    "categories": [
+      "Palestine"
+    ],
+    "year": 2025,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": true,
+    "texture": "standard",
+    "notes": "from MomaPS1 book festival!"
+  },
+  {
+    "id": "pin_041",
+    "name": "Hidden Leaf Headband",
+    "image_path": "images/pins/pin_003.png",
+    "categories": [
+      "Anime"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": "Japan 2023",
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_042",
+    "name": "Millie",
+    "image_path": "images/pins/pin_004.png",
+    "categories": [
+      "NYC"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "this is the second one i've bought because the first one broke #L"
+  },
+  {
+    "id": "pin_043",
+    "name": "Hello Kitty Strawhats",
+    "image_path": "images/pins/pin_007.png",
+    "categories": [
+      "Anime"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": true,
+    "texture": "standard",
+    "notes": ""
+  },
+  {
+    "id": "pin_044",
+    "name": "Kid Link",
+    "image_path": "images/pins/pin_009.png",
+    "categories": [
+      "Nintendo"
+    ],
+    "year": 2024,
+    "acquisition_type": "bought",
+    "trip": null,
+    "is_favorite": false,
+    "texture": "standard",
+    "notes": "japanfes buy.. worth it"
+  }
+]

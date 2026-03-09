@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>how this was made — pin there, done that</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      overflow: auto;
+    }
+
+    #how-page {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: calc(var(--header-height) + 60px) 24px 80px;
+    }
+
+    .how-eyebrow {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .how-title {
+      font-size: 2rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+
+    .how-subtitle {
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-style: italic;
+      margin-bottom: 52px;
+      line-height: 1.6;
+    }
+
+    .how-section {
+      margin-bottom: 48px;
+    }
+
+    .how-section h2 {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .how-section p {
+      font-size: 0.92rem;
+      color: azure;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .how-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .how-section a {
+      color: var(--text-primary);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.2s;
+    }
+
+    .how-section a:hover {
+      color: azure;
+    }
+
+    .stack-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .stack-list li {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      font-size: 0.88rem;
+    }
+
+    .stack-label {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      min-width: 110px;
+      flex-shrink: 0;
+    }
+
+    .stack-value {
+      color: azure;
+      line-height: 1.5;
+    }
+
+    .phase-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .phase {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .phase-num {
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-radius: 3px;
+      padding: 3px 8px;
+      letter-spacing: 0.06em;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .phase-text {
+      font-size: 0.88rem;
+      color: azure;
+      line-height: 1.7;
+    }
+
+    .how-footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    .how-footer a {
+      color: var(--text-muted);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .how-footer a:hover {
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="site-title">
+    pin there, done that
+    <small>anum's pin collection</small>
+  </span>
+  <nav>
+    <a href="index.html">← back to the graph</a>
+    <a href="https://anumahmad.github.io" target="_blank">← portfolio</a>
+  </nav>
+</header>
+
+<div id="how-page">
+
+  <div class="how-eyebrow">behind the project</div>
+  <h1 class="how-title">how this was made</h1>
+  <p class="how-subtitle">a graph database, 100+ enamel pins, and a lifetime of collecting.</p>
+
+  <div class="how-section">
+    <h2>The Idea</h2>
+    <p>
+      Ever since my first year of college, I've been consciously collecting enamel pins.
+      Enamel pins are a very specific kind of collectible. They're small, easy to display, and represent a moment of 
+      intention for the artist– each enamel pins requires a custom mold, which means the design is deliberate and meaningful.
+      Over the past few years my collection has grown — over 100 at this point, spanning every corner of who I am:
+      my city, my politics, my obsession with bubble tea, the anime I grew up watching, the books that
+      shaped me. For a long time they just lived on my backpack, then on a poster, which felt like
+      a waste. Every pin has a story. This project was about sharing that story with others.
+    </p>
+    <p>
+      I wanted to build something that felt less like a portfolio piece and more like a walk through me.
+      The idea of a graph database was something I had been toying with for awhile given the interconnected nature of this project. 
+    </p>
+  </div>
+
+  <div class="how-section">
+    <h2>Built With Claude Code</h2>
+    <p>
+      This project was built almost entirely through a conversation with
+      <a href="https://claude.ai/code" target="_blank">Claude Code</a>, Anthropic's AI coding tool.
+      I came in with the idea and the pins. Claude helped me think through the architecture, write every
+      line of code, and work through decisions in real time — kind of like pair programming, except one
+      half of the pair knows every JavaScript API by heart. In college, I had a lot of experience pair programming so it was actually quite natural to take it this step further. 
+    </p>
+    <p>
+      Before a single line of code was written, I detailed
+      what the experience should feel like, what data mattered, how the graph should behave. That conversation became a full project spec document
+      that guided everything after it. You can see the full spec in the repo! 
+    </p>
+    <p>
+      I've been coding since 2018, but this was my first time building something almost entirely
+      through prompting. The experience taught me a lot about how to think out loud, how to be specific
+      about what you want, and what it means to collaborate with a tool that's genuinely capable.
+    </p>
+  </div>
+
+  <div class="how-section">
+    <h2>How the Graph Works</h2>
+    <p>
+      There's no server, no real database, and no backend. The "graph database" is a single JSON file
+      sitting in the repo — one object per pin, with fields for name, category, year, how I got it,
+      whether it's a favorite, and more. When you open the page, JavaScript reads that file and computes
+      the graph in your browser.
+    </p>
+    <p>
+      The edges are the interesting part. Pins connect to their category hubs (the colored hexagons)
+      via category edges. Pins that came from the same trip connect to each other via a dashed silver
+      line. The visual result — clusters of related pins pulling toward shared centers — emerges naturally
+      from the data, not from any manual layout decisions.
+    </p>
+    <p>
+      Pin data is managed locally through a set of Python scripts: a CSV importer for adding pins in
+      bulk, an interactive CLI for adding one at a time, and an edit tool for updating fields. When the
+      JSON changes, I push to GitHub and the live site updates immediately.
+    </p>
+  </div>
+
+  <div class="how-section">
+    <h2>Tech Stack</h2>
+    <ul class="stack-list">
+      <li>
+        <span class="stack-label">Hosting</span>
+        <span class="stack-value">GitHub Pages — free, static, no server required</span>
+      </li>
+      <li>
+        <span class="stack-label">Graph rendering</span>
+        <span class="stack-value">Cytoscape.js — handles the force-directed layout, node images, and all interactions</span>
+      </li>
+      <li>
+        <span class="stack-label">Data</span>
+        <span class="stack-value">pins.json — a flat JSON array; the entire "database" is ~10KB</span>
+      </li>
+      <li>
+        <span class="stack-label">Frontend</span>
+        <span class="stack-value">Vanilla HTML, CSS, and JavaScript — no framework, no bundler, no build step</span>
+      </li>
+      <li>
+        <span class="stack-label">Data tooling</span>
+        <span class="stack-value">Python 3 scripts (local only) — import from CSV, add a pin, edit a pin</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="how-section">
+    <h2>How It Came Together</h2>
+    <div class="phase-list">
+      <div class="phase">
+        <span class="phase-num">01</span>
+        <span class="phase-text">Described the project idea to Claude and answered questions about what mattered to me — what makes two pins related, what the "explore" experience should feel like, whether I wanted a real backend or something simpler.</span>
+      </div>
+      <div class="phase">
+        <span class="phase-num">02</span>
+        <span class="phase-text">Reviewed a full project specification before any code was written — data model, edge types, color palette, file structure, phased implementation plan.</span>
+      </div>
+      <div class="phase">
+        <span class="phase-num">03</span>
+        <span class="phase-text">Claude built the full Phase 1 codebase in one session: the graph, the detail panel, the filters, the Python scripts, the CLAUDE.md. I photographed my first 10 pins while it was building.</span>
+      </div>
+      <div class="phase">
+        <span class="phase-num">04</span>
+        <span class="phase-text">Iterated from there — fixed the image cropping so PNGs show their natural pin shapes, tuned the category hexagons, picked a color palette, added the pin number display.</span>
+      </div>
+      <div class="phase">
+        <span class="phase-num">05</span>
+        <span class="phase-text">Now: adding all 100+ pins, filling out the CSV, deploying to GitHub Pages. The graph gets more interesting the more pins are in it.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-footer">
+    made with love by <a href="https://anumahmad.github.io" target="_blank">anum ahmad</a>, 2026.
+  </div>
+
+</div>
+
+</body>
+</html>

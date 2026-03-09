@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pin there, done that</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.29.2/cytoscape.min.js"></script>
+</head>
+<body>
+
+<header>
+  <span class="site-title">
+    pin there, done that
+    <small>anum's pin collection</small>
+  </span>
+  <nav>
+    <a href="how.html">how this was made</a>
+    <a href="https://anumahmad.github.io" target="_blank">← portfolio</a>
+  </nav>
+</header>
+
+<div id="app">
+
+  <!-- Controls Panel -->
+  <aside id="controls-panel">
+    <button class="controls-toggle" id="controls-toggle" title="Toggle panel">
+      <span id="toggle-label">‹</span>
+    </button>
+    <div class="controls-inner">
+
+      <div class="section-label">Discover</div>
+      <button class="btn btn-surprise" id="btn-surprise">✦ surprise me</button>
+      <button class="btn" id="btn-reset">reset view</button>
+      <div id="category-count"></div>
+
+      <div class="section-label">Categories</div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-nyc" value="NYC" checked>
+        <div class="cat-dot" style="background:#734f5a"></div>
+        <label for="cat-nyc">NYC</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-bt" value="Bubble Tea" checked>
+        <div class="cat-dot" style="background:#264653"></div>
+        <label for="cat-bt">Bubble Tea</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-tech" value="Technology" checked>
+        <div class="cat-dot" style="background:#2a9d8f"></div>
+        <label for="cat-tech">Technology</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-travel" value="Travel" checked>
+        <div class="cat-dot" style="background:#e9c46a"></div>
+        <label for="cat-travel">Travel</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-anime" value="Anime" checked>
+        <div class="cat-dot" style="background:#f4a261"></div>
+        <label for="cat-anime">Anime</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-pal" value="Palestine" checked>
+        <div class="cat-dot" style="background:#e76f51"></div>
+        <label for="cat-pal">Palestine</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-books" value="Books" checked>
+        <div class="cat-dot" style="background:#941c2f"></div>
+        <label for="cat-books">Books</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-misc" value="Miscellaneous" checked>
+        <div class="cat-dot" style="background:#c05761"></div>
+        <label for="cat-misc">Miscellaneous</label>
+      </div>
+      <div class="cat-filter-item">
+        <input type="checkbox" class="cat-filter" id="cat-nintendo" value="Nintendo" checked>
+        <div class="cat-dot" style="background:#5c5177"></div>
+        <label for="cat-nintendo">Nintendo</label>
+      </div>
+
+      <div class="section-label">Connections</div>
+      <div class="cat-filter-item">
+        <input type="checkbox" id="edge-category" checked>
+        <label for="edge-category">Category edges</label>
+      </div>
+
+      <div class="section-label">Trips</div>
+      <div id="trip-filters"></div>
+
+    </div>
+  </aside>
+
+  <!-- Graph Canvas -->
+  <main id="graph-container">
+    <div id="cy"></div>
+    <div id="loading">loading pins...</div>
+    <div id="intro-text">click a pin to explore &nbsp;·&nbsp; click a category to filter &nbsp;·&nbsp; try "surprise me"</div>
+  </main>
+
+  <!-- Detail Panel -->
+  <aside id="detail-panel">
+    <div class="dp-header">
+      <span class="dp-header-label">Pin Detail</span>
+      <button id="dp-close" title="Close">×</button>
+    </div>
+    <div class="dp-image-container">
+      <img id="dp-image" src="" alt="">
+    </div>
+    <div class="dp-body">
+      <div id="dp-favorite">★ favorite</div>
+      <h2 id="dp-name"></h2>
+      <div id="dp-pin-number"></div>
+      <div id="dp-year"></div>
+      <div id="dp-categories"></div>
+      <div class="dp-meta">
+        <div class="dp-meta-row" id="dp-trip-row">
+          <span class="dp-meta-label">Trip</span>
+          <span class="dp-meta-value" id="dp-trip"></span>
+        </div>
+        <div class="dp-meta-row">
+          <span class="dp-meta-label">Got it</span>
+          <span class="dp-meta-value" id="dp-acquisition"></span>
+        </div>
+        <div class="dp-meta-row" id="dp-texture-row">
+          <span class="dp-meta-label">Texture</span>
+          <span class="dp-meta-value" id="dp-texture"></span>
+        </div>
+      </div>
+      <div class="dp-notes" id="dp-notes-row">
+        <span id="dp-notes"></span>
+      </div>
+    </div>
+  </aside>
+
+</div>
+
+<!-- Mobile floating buttons (hidden on desktop) -->
+<div class="mobile-fabs">
+  <button class="mobile-fab" id="mobile-filters-btn">≡ filters</button>
+  <button class="mobile-fab mobile-fab-surprise" id="mobile-surprise-btn">✦</button>
+</div>
+<div id="mobile-backdrop"></div>
+
+<script src="js/constants.js"></script>
+<script src="js/data-loader.js"></script>
+<script src="js/detail-panel.js"></script>
+<script src="js/graph.js"></script>
+<script src="js/filters.js"></script>
+<script>initGraph();</script>
+
+</body>
+</html>
